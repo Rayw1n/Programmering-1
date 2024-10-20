@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Modo_\\source\\repos\\Programmering 1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{659EB0D9-4C02-4E2A-B6F3-924160A87A77}|Pension\\Pension.csproj|c:\\users\\modo_\\source\\repos\\programmering 1\\pension\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659EB0D9-4C02-4E2A-B6F3-924160A87A77}|Pension\\Pension.csproj|solutionrelative:pension\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Modo_\\source\\repos\\Programmering 1\\Pension\\Program.cs",
+              "RelativeDocumentMoniker": "Pension\\Program.cs",
+              "ToolTip": "C:\\Users\\Modo_\\source\\repos\\Programmering 1\\Pension\\Program.cs",
+              "RelativeToolTip": "Pension\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T16:41:50.424Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
