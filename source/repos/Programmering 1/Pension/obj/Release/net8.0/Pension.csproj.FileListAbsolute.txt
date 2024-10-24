@@ -12,3 +12,4 @@ C:\Users\Modo_\source\repos\Programmering 1\Pension\obj\Release\net8.0\refint\Pe
 C:\Users\Modo_\source\repos\Programmering 1\Pension\obj\Release\net8.0\Pension.pdb
 C:\Users\Modo_\source\repos\Programmering 1\Pension\obj\Release\net8.0\Pension.genruntimeconfig.cache
 C:\Users\Modo_\source\repos\Programmering 1\Pension\obj\Release\net8.0\ref\Pension.dll
+C:\Users\Modo_\source\repos\Programmering 1\Pension\obj\Release\net8.0\Pension.sourcelink.json
