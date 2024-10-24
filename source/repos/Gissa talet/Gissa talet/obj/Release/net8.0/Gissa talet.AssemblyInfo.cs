@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gissa talet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ba8a8c89802d4d1a17d3a78dc23d2dacd413fdd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+977edcf426714f47106af3a36396a4cf97546002")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gissa talet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gissa talet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
