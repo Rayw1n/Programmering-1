@@ -15,7 +15,7 @@ class Program
             int gissningar = 0;  // Håller reda på antal gissningar
             bool korrektGissat = false; // Används för att kontrollera när användaren har gissat rätt
 
-            Console.WriteLine("Gissa talet mellan 1 & 100 (Du har 15 försök)");
+            Console.WriteLine("Gissa talet mellan 1 & 100 (Du har 10 försök)");
 
             do
             {
@@ -28,7 +28,7 @@ class Program
                 {
                     gissningar++;
 
-                    // Kolla om talet är rätt eller om det är för högt/lågt
+                    // Kolla om talet är för högt/lågt
                     if (tal > slumpTal + 5)
                     {
                         Console.WriteLine("För högt! Gissa igen.");
@@ -49,10 +49,10 @@ class Program
                         Console.WriteLine($"Grattis! Du gissade rätt på {gissningar} försök.");
                     }
 
-                    // Avsluta spelet om användaren har gjort 15 gissningar
-                    if (gissningar >= 15 && !korrektGissat)
+                    // Avsluta spelet om användaren har gjort 10 gissningar
+                    if (gissningar >= 10 && !korrektGissat)
                     {
-                        Console.WriteLine($"Du har gjort 15 gissningar. Det korrekta talet var {slumpTal}.");
+                        Console.WriteLine($"Du har gjort 10 gissningar. Det korrekta talet var {slumpTal}.");
                         break;
                     }
                 }
@@ -61,7 +61,7 @@ class Program
                     Console.WriteLine("Ogiltig inmatning, ange ett giltigt tal.");
                 }
             }
-            while (!korrektGissat && gissningar < 15);
+            while (!korrektGissat && gissningar < 10);
 
             // Håll reda på rekordet för minst antal gissningar
             if (korrektGissat && gissningar < rekordGissningar)
