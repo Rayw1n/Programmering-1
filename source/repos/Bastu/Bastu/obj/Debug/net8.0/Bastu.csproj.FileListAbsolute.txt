@@ -1,0 +1,15 @@
+C:\Users\Modo_\source\repos\Bastu\Bastu\obj\Debug\net8.0\Bastu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Modo_\source\repos\Bastu\Bastu\obj\Debug\net8.0\Bastu.AssemblyInfoInputs.cache
+C:\Users\Modo_\source\repos\Bastu\Bastu\obj\Debug\net8.0\Bastu.AssemblyInfo.cs
+C:\Users\Modo_\source\repos\Bastu\Bastu\obj\Debug\net8.0\Bastu.csproj.CoreCompileInputs.cache
+C:\Users\Modo_\source\repos\Bastu\Bastu\obj\Debug\net8.0\Bastu.sourcelink.json
+C:\Users\Modo_\source\repos\Bastu\Bastu\bin\Debug\net8.0\Bastu.exe
+C:\Users\Modo_\source\repos\Bastu\Bastu\bin\Debug\net8.0\Bastu.deps.json
+C:\Users\Modo_\source\repos\Bastu\Bastu\bin\Debug\net8.0\Bastu.runtimeconfig.json
+C:\Users\Modo_\source\repos\Bastu\Bastu\bin\Debug\net8.0\Bastu.dll
+C:\Users\Modo_\source\repos\Bastu\Bastu\bin\Debug\net8.0\Bastu.pdb
+C:\Users\Modo_\source\repos\Bastu\Bastu\obj\Debug\net8.0\Bastu.dll
+C:\Users\Modo_\source\repos\Bastu\Bastu\obj\Debug\net8.0\refint\Bastu.dll
+C:\Users\Modo_\source\repos\Bastu\Bastu\obj\Debug\net8.0\Bastu.pdb
+C:\Users\Modo_\source\repos\Bastu\Bastu\obj\Debug\net8.0\Bastu.genruntimeconfig.cache
+C:\Users\Modo_\source\repos\Bastu\Bastu\obj\Debug\net8.0\ref\Bastu.dll

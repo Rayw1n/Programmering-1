@@ -1,0 +1,15 @@
+C:\Users\Modo_\source\repos\Bussen\Bussen\obj\Debug\net8.0\Bussen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Modo_\source\repos\Bussen\Bussen\obj\Debug\net8.0\Bussen.AssemblyInfoInputs.cache
+C:\Users\Modo_\source\repos\Bussen\Bussen\obj\Debug\net8.0\Bussen.AssemblyInfo.cs
+C:\Users\Modo_\source\repos\Bussen\Bussen\obj\Debug\net8.0\Bussen.csproj.CoreCompileInputs.cache
+C:\Users\Modo_\source\repos\Bussen\Bussen\obj\Debug\net8.0\Bussen.sourcelink.json
+C:\Users\Modo_\source\repos\Bussen\Bussen\bin\Debug\net8.0\Bussen.exe
+C:\Users\Modo_\source\repos\Bussen\Bussen\bin\Debug\net8.0\Bussen.deps.json
+C:\Users\Modo_\source\repos\Bussen\Bussen\bin\Debug\net8.0\Bussen.runtimeconfig.json
+C:\Users\Modo_\source\repos\Bussen\Bussen\bin\Debug\net8.0\Bussen.dll
+C:\Users\Modo_\source\repos\Bussen\Bussen\bin\Debug\net8.0\Bussen.pdb
+C:\Users\Modo_\source\repos\Bussen\Bussen\obj\Debug\net8.0\Bussen.dll
+C:\Users\Modo_\source\repos\Bussen\Bussen\obj\Debug\net8.0\refint\Bussen.dll
+C:\Users\Modo_\source\repos\Bussen\Bussen\obj\Debug\net8.0\Bussen.pdb
+C:\Users\Modo_\source\repos\Bussen\Bussen\obj\Debug\net8.0\Bussen.genruntimeconfig.cache
+C:\Users\Modo_\source\repos\Bussen\Bussen\obj\Debug\net8.0\ref\Bussen.dll

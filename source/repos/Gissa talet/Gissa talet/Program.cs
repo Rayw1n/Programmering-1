@@ -4,40 +4,87 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("Gissa talet mellan 1 & 100");
-        string str = Console.ReadLine();
-        int tal = Convert.ToInt32(str);
+        bool spelaIgen = true; //bool funktion
+        int rekordGissningar = int.MaxValue; // För att hålla reda på minsta antalet gissningar
 
-        // Skapa en random funktion
-        Random random = new Random();
-
-        // Slumpa ett tal mellan 1 och 100
-        int slumpTal = random.Next(1, 101); // mellan 1 och 100.
-
-        // Räkna ut och se om talet stämmer överens med 10 antal i skillnad.
-        while (tal != slumpTal)
+        while (spelaIgen)
         {
-            if (tal > slumpTal + 5) // högre än slumpattal + 5
+            // Skapa ett Random-objekt och slumpa ett tal mellan 1 och 100
+            Random random = new Random();
+            int slumpTal = random.Next(1, 101);
+            int gissningar = 0;  // Håller reda på antal gissningar
+            bool korrektGissat = false; // Används för att kontrollera när användaren har gissat rätt
+
+            Console.WriteLine("Gissa talet mellan 1 & 100 (Du har 10 försök)");
+
+            do
             {
-                Console.WriteLine("För högt! Gissa igen.");
+                // Läs in användarens gissning
+                string str = Console.ReadLine();
+                int tal;
+
+                // Validering av inmatning
+                if (int.TryParse(str, out tal))
+                {
+                    gissningar++;
+
+                    // Kolla om talet är för högt/lågt
+                    if (tal > slumpTal + 5)
+                    {
+                        Console.WriteLine("För högt! Gissa igen.");
+                    }
+                    else if (tal < slumpTal - 5)
+                    {
+                        Console.WriteLine("För lågt! Gissa igen.");
+                    }
+                    else if (Math.Abs(tal - slumpTal) <= 5 && tal != slumpTal)
+                    {
+                        Console.WriteLine("Det närmar sig!");
+                    }
+
+                    // Kontrollera om talet är rätt
+                    if (tal == slumpTal)
+                    {
+                        korrektGissat = true;
+                        Console.WriteLine($"Grattis! Du gissade rätt på {gissningar} försök.");
+                    }
+
+                    // Avsluta spelet om användaren har gjort 10 gissningar
+                    if (gissningar >= 10 && !korrektGissat)
+                    {
+                        Console.WriteLine($"Du har gjort 10 gissningar. Det korrekta talet var {slumpTal}.");
+                        break;
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Ogiltig inmatning, ange ett giltigt tal.");
+                }
             }
-            else if (tal < slumpTal - 5) //Lägre än slumpattal - 5
+            while (!korrektGissat && gissningar < 10);
+
+            // Håll reda på rekordet för minst antal gissningar
+            if (korrektGissat && gissningar < rekordGissningar)
             {
-                Console.WriteLine("För lågt! Gissa igen.");
+                rekordGissningar = gissningar;
             }
 
-            if (Math.Abs(tal - slumpTal) <= 5 && tal != slumpTal)
-            {
-                Console.WriteLine("Det närmar sig!");
-            }
+            // Fråga om användaren vill spela igen
+            Console.WriteLine("Vill du spela igen? (ja/nej)");
+            string svar = Console.ReadLine().ToLower();
 
-            str = Console.ReadLine();
-            tal = Convert.ToInt32(str);
+            if (svar != "ja")
+            {
+                spelaIgen = false;
+            }
         }
 
-        // Om talet var rätt
-        Console.WriteLine("Grattis, det var korrekt!"); 
-        Console.ReadKey();
+        // När spelet avslutas, visa rekordet om minst antal gissningar
+        if (rekordGissningar < int.MaxValue)
+        {
+            Console.WriteLine($"Rekordet för minst antal gissningar var {rekordGissningar}.");
+        }
+
+        Console.WriteLine("Tack för att du spelade!");
     }
-   
 }

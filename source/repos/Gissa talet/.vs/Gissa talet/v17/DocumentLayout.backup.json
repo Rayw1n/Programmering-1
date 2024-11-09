@@ -14,15 +14,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
             },
             {
               "$type": "Bookmark",
@@ -36,7 +32,7 @@
               "RelativeDocumentMoniker": "Gissa talet\\Program.cs",
               "ToolTip": "C:\\Users\\Modo_\\source\\repos\\Gissa talet\\Gissa talet\\Program.cs",
               "RelativeToolTip": "Gissa talet\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAiwCcAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAArwC0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T09:57:21.779Z",
               "EditorCaption": ""
